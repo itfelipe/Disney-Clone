@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Header from './Header'
+
 
 function Login() {
   return (
@@ -27,7 +27,7 @@ const Container = styled.div`
    position: relative;
    height: calc(100vh - 70px);
    display: flex;
-   align-items: top ;
+   align-items: top;
    justify-content: center;
    
 
@@ -45,8 +45,6 @@ const Container = styled.div`
     opacity: 0.7 ;
     z-index: -1;
    }
-
-
 `
 
 const CTA = styled.div`
@@ -56,8 +54,7 @@ const CTA = styled.div`
     display: flex;
     flex-direction: column;
     margin-top: 100px;
-    align-items: center ;
-    
+    align-items: center;
 `
 
 const CTALogoOne = styled.img` 
@@ -93,5 +90,4 @@ const Description = styled.p`
 
 const CTALogoTwo = styled.img` 
   width: 90% ;
-
 `

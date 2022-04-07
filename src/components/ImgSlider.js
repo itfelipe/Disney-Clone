@@ -31,10 +31,10 @@ function ImgSlider() {
            <Wrap>
            <img src={item}/>
          </Wrap>
-        ))};
+        ))}
      </Carousel>
-  );
-};
+  )
+}
 
 export default ImgSlider;
 
@@ -45,21 +45,20 @@ const Carousel = styled(Slider)`
       &:before {
         font-size: 10px;
         color: rgb(150, 158, 171); 
-      };
-    };
+      }
+    }
 
     li.slick-active button::before {
       color: white;
-    };
+    }
 
     .slick-list{
       overflow: visible;
-    };
+    }
 
     button{
       z-index:1;
-    };
-
+    }
 `
 
 const Wrap = styled.div`
@@ -75,6 +74,6 @@ const Wrap = styled.div`
 
      &:hover{
        border: 4px solid white;
-     };
-   };
+     }
+   }
 `

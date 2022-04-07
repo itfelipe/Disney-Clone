@@ -30,12 +30,12 @@ function Originals() {
      return (
           <Container>
               <h4>Originals</h4>
-          <Content{...settings}>
+          <Content {...settings}>
             {imgList.map(item=>(
             <Wrap>
                 <img src={item}/>
            </Wrap>  
-        ))};    
+        ))}
           </Content>
    
         </Container>

@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import styled from 'styled-components';
 import ImgSlider from './ImgSlider';
 import Viewers from './Viewers';
@@ -19,10 +19,10 @@ function Home() {
         <NewsInDisney/>
         <Originals/>
         <Mcu/>
-        <Footer/>
+       
     </Container>
-  );
-};
+  )
+}
 
 export default Home;
 

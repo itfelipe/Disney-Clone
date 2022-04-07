@@ -12,7 +12,7 @@ function Header() {
     {name:'ORIGINALS', imageLink:'/images/original-icon.svg'},
     {name:'MOVIES', imageLink:'/images/movie-icon.svg'},
     {name:'SERIES', imageLink:'/images/series-icon.svg'}
-  ];
+  ]
   
   const [itemList, setItemList] = useState(list);
 
@@ -40,8 +40,8 @@ function Header() {
           isPathnameLogin ? 'https://icon2.cleanpng.com/20181110/spz/kisspng-computer-icons-login-scalable-vector-graphics-emai-5be73768cb2288.8298339815418796568321.jpg' 
           : 'https://i.pinimg.com/736x/16/93/ba/1693ba9655ab2a24ca242b24685aa373.jpg'}/> 
     </Nav>
-  );
-};
+  )
+}
 
 export default Header;
 

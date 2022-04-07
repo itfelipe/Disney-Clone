@@ -16,17 +16,21 @@ function Footer() {
         </a>   
     </Content>
     </Container>
-  );
-};
+  )
+}
 
 export default Footer;
 
 const Container = styled.div`
-   background-color: #090b13  ;
-   padding: 60px;
+   
+   background-color: #090b13;
+   
    display: flex;
    flex-direction: column;
    align-items: center ;
+   padding: 40px ;
+   overflow-x: hidden;
+   
 `
 
 const Logo = styled.img`
@@ -46,13 +50,13 @@ const Content = styled.div`
 `
 
 const Linkedin = styled.img`
-   border-radius:10%;
+   border-radius:50%;
    display: flex ;
    cursor: pointer;
 `
 
 const Github = styled.img`
-   border-radius:10%;
+   border-radius:50%;
    display: flex ;
    margin-left: 20px ;
    cursor: pointer;

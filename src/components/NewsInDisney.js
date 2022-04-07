@@ -37,7 +37,7 @@ function NewsInDisney() {
                 <Wrap>
                     <a href='http://localhost:3000/detail'><img  src={item}/></a>
                </Wrap>  
-            ))};  
+            ))}
         </Content>
     </Container>
   )

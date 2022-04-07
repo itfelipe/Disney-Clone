@@ -36,7 +36,7 @@ function Movies() {
                 <Wrap >
                     <img src={item}/>
                </Wrap>      
-            ))};      
+            ))}    
         </Content>
     </Container>
   )

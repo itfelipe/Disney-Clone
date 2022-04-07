@@ -30,19 +30,17 @@ function Mcu() {
   return (
     <Container>
     <h4>Marvel Cinematic Universe</h4>
-    <Content{...settings}>
+    <Content {...settings}>
         {imgList.map(item=>(
             <Wrap>
                 <img src={item}/>
            </Wrap>  
-           
-         
-        ))};  
+        ))}
     </Content>
 
     </Container>
-  );
-};
+  )
+}
 
 export default Mcu
 
